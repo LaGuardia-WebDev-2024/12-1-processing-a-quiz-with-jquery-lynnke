@@ -1,0 +1,7 @@
+#result {
+  background: rgb(255, 246, 204);
+  border: 3px dotted gold;
+  font-size: 24px;
+  min-height: 60px;
+  margin-top: 10px;
+}
