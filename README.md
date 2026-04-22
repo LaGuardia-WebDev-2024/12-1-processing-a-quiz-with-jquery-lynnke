@@ -10,7 +10,7 @@
 
 You're going to make this quiz interactive with JS & jQuery. In this first step, add an event listener to the form's 'submit' event.
 <br><br>
-_Hint:_<br>`$("#trivia-form").on("submit",function(event){`<br>
+_Hint:_<br>`$("#trivia-form").on("XXXXX",function(event){`<br>
 `event.preventDefault();`<br>
 ` `<br>
 ` `<br>
