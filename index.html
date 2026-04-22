@@ -12,10 +12,10 @@
       <label>
         Who teaches Web Dev?<br />
         <select id="trivia-answer">
-          <option value="ethan">Ethan</option>
-          <option value="isaac">Isaac</option>
+          <option value="Frances">Frances</option>
+          <option value="Sofia">Sofia</option>
           <option value="hall">Ms. Hall</option>
-          <option value="pamela">pamela ❤</option>
+          <option value="Lynn">Lynn</option>
         </select>
       </label>
       <br />
@@ -25,8 +25,20 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
+// when the user submits the form,
+// check what they picked
+//  and tell them if they are correct
 
-
+// submit
+$("#trivia-form").on("submit", function(event){
+  event.preventDefault();
+  var $answer= $("#trivia-form");
+  var answer = $answer.val();
+  console.log(answer);
+  if (answer==="Frances"); 
+    $("result").text ("you wish")}
+    
+});
 
     </script>
   </body>
